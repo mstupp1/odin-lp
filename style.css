@@ -1,53 +1,32 @@
 body {
     font-family: 'Roboto', sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+    flex-direction: column;
     height: 100vh;
     padding: 0;
     margin: 0;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.hero-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    background-color: #1f2937;
-    padding: 20px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 200px;
+    background-color: #1f2937;
 }
 
 .header-logo {
     font-size: 24px;
     font-weight: bold;
     flex-shrink: 0;
-    justify-content: flex-start;
+    color: #f9faf8;
 }
 
 .header-links {
     display: flex;
-    justify-content: flex-end;
     align-items: center;
-    width: 100%;
     gap: 16px;
+    color: #f9faf8;
 }
 
 ul {
@@ -62,6 +41,8 @@ ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 100px 200px;
+    background-color: #1f2937;
 }
 
 .hero-text {
@@ -70,6 +51,7 @@ ul {
     align-items: flex-start;
     justify-content: flex-start;
     width: 50%;
+    color: #f9faf8;
 }
 
 .hero-title {
@@ -90,14 +72,20 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 50px 200px;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 .content-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    gap: 10px;
 }
 
 .image {
@@ -105,17 +93,8 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
-}
-
-.quote-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    padding: 20px;
-    background-color: #e5e7eb;
+    text-align: center;
+    gap: 10px;
 }
 
 .quote {
@@ -124,14 +103,19 @@ ul {
     align-items: center;
     justify-content: center;
     background-color: #e5e7eb;
-    padding: 20px;
+    padding: 100px 200px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
 }
 
 .quote-author {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    width: 100%;
     font-size: 24px;
     font-weight: bold;
 }
@@ -141,7 +125,6 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
     padding: 20px;
 }
 
@@ -159,7 +142,6 @@ ul {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 50%;
     color: white;
 }
 
@@ -189,8 +171,7 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100px;
+    padding: 20px;
     background-color: #1f2937;
     color: white;
 }
